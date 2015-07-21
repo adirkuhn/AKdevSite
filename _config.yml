@@ -6,8 +6,8 @@ timezone: America/Sao_Paulo
 description: Aventuras e desaventuras no desenvolvimento.
 #logo: site-logo.png
 search: true
-#url: http://adirkuhn.github.io
-url: http://localhost:4000
+url: http://adirkuhn.github.io
+#url: http://localhost:4000
 paginate: 10
 paginate_path: "/pagina/:num"
 
