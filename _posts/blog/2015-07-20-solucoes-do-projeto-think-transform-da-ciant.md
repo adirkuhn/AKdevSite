@@ -63,7 +63,7 @@ As linhas 5 e 10 possuem a palavra  "Buzz" pois são múltiplos de 5.
 Bom esse problema não tem muito o que explicar, basta verificar se o número é multiplo de 3 e 5,
 só de 3, só de 5 ou de nenhum dos dois exibindo a saída desejada.
 
-Essa eu respondi utlizando Python, a o tempo de execução é **O(n)**:
+Essa eu respondi utlizando Python, o tempo de execução é **O(n)**:
 
 {% highlight python %}
 def fizz_buzz(n):
@@ -141,7 +141,7 @@ EXEMPLO OUTPUT #2
 XCIX
 {% endhighlight%}
 
-Este problema é mais complicado a organização do código do que o problema a ser resolvido.
+Neste problema é mais complicado a organização do código do que o problema a ser resolvido.
 
 Uma das possíveis abordagens para esse problema é dividir o número de entrada em **milhar**, **centena**, **dezena** e **unidade**, como fazemos no nosso dia a dia sem perceber.
 
@@ -266,7 +266,9 @@ Exemplos de Output:
 1
 {% endhighlight %}
 
-Esse é um pouco mais complicada, mas mesmo assim possível de resolver. Queria implementar em C++ mas não estava disponível essa linguagem no teste, então escolhi PHP por ser muito parecida com C++.
+Esse aqui é um pouco mais complicad, mas mesmo assim possível de resolver. 
+Queria implementar em C++ mas não estava disponível essa linguagem no teste, então escolhi 
+PHP por ser muito parecida com C++.
 
 Basicamente seria um mini analizador léxico, mas não fazia idéia por onde começar esse sem consultar algum material, 
 então decidi utilizar uma estrutura de `stack`.
